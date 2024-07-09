@@ -1,1 +1,34 @@
-<p>login works!</p>
+<div class="Background">
+    <div class="DivGeral">
+        <div class="imagem">
+            <img src="ImgLogin.png" alt="Imagem Ilustrativa Do Cadastro">
+        </div>
+        <div class="Texto">
+
+            <div class="Texto_Superior">
+                <p class="register">Começe sua Jornada</p>
+                <h1>Faça Login na Health Secure</h1>
+                <p class="LinkRota">Ainda não possui uma conta? <a routerLink="/">Registrar</a></p>
+            </div>
+
+            <form class="Texto_Formulario">
+                <p><label for="email">E-Mail</label></p>
+                <div>
+                    <input [(ngModel)]="Inputemail" class="InputDados" type="email" name="email" id="email" required>
+                    <span class="material-symbols-outlined">mail</span>
+                </div>
+                <p><label for="senha">Senha</label></p>
+                <div>
+                    <input [(ngModel)]="Inputsenha" class="InputDados" type="password" name="senha" id="senha" required>
+                    <span class="material-symbols-outlined">lock</span>
+                </div>
+                <input (click)="EntrarLogin()" class="btnLogin" type="submit" value="Login">
+            </form>
+
+            <div class="Texto_Inferior">
+                <p>Todos os seus dados são protegidos com criptografia de ponta a ponta</p>
+            </div>
+
+        </div>
+    </div>
+</div>
