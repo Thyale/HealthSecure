@@ -1,0 +1,118 @@
+.Background{
+    background-image: url(../../../../public/BackgroundLogin.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.DivGeral{
+    background-color: white;
+    width: 70%;
+    max-width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+.Texto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Texto_Superior{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.register{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.LinkRota{
+    font-size: 14px; 
+    color: rgba(0, 0, 0, 0.541);
+}
+
+.Texto_Superior a{
+    text-decoration: none;
+    color:#50A2E9;
+}
+
+.Texto_Formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Texto_Formulario label{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Texto_Formulario>div{
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span{
+    color: rgba(0, 0, 0, 0.359);
+}
+
+.InputDados{
+    border: none;
+    outline: none;
+    width: 95%;
+    padding: 5px;
+}
+
+.btnCadastrar{
+    background-color: #50A2E9;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Texto_Inferior{
+    color: rgba(0, 0, 0, 0.299);
+    font-size: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+@media(max-width: 800px){
+    
+    .DivGeral{
+        width: 80%;
+        flex-direction: column;
+    }
+    
+    img{
+        display: none;
+    }
+}

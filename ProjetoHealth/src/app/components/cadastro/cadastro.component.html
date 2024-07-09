@@ -1,0 +1,39 @@
+<div class="Background">
+    <div class="DivGeral">
+        <div class="Texto">
+
+            <div class="Texto_Superior">
+                <p class="register">Registre-se AGORA</p>
+                <h1>Faça seu Registro de graça</h1>
+                <p class="LinkRota">Já possui um cadastro? <a routerLink="login">Login</a></p>
+            </div>
+
+            <form class="Texto_Formulario">
+                <p><label for="nome">Nome de Usuário</label></p>
+                <div>
+                    <input class="InputDados" [(ngModel)]="NomeDigitado" type="text" name="nome" id="nome" required autocomplete="off">
+                    <span class="material-symbols-outlined">person</span>
+                </div>
+                <p><label for="email">E-Mail</label></p>
+                <div>
+                    <input class="InputDados" [(ngModel)]="EmailDigitado" type="email" name="email" id="email" required autocomplete="off">
+                    <span class="material-symbols-outlined">mail</span>
+                </div>
+                <p><label for="senha">Senha</label></p>
+                <div>
+                    <input class="InputDados" [(ngModel)]="SenhaDigitada" type="password" name="senha" id="senha" required autocomplete="off">
+                    <span class="material-symbols-outlined">lock</span>
+                </div>
+                <input (click)="EnviarDados()" class="btnCadastrar" type="submit" value="Cadastrar">
+            </form>
+
+            <div class="Texto_Inferior">
+                <p>Todos os seus dados são protegidos com criptografia de ponta a ponta</p>
+            </div>
+
+        </div>
+        <div class="imagem">
+            <img src="ImgCadastro.png" alt="Imagem Ilustrativa Do Cadastro">
+        </div>
+    </div>
+</div>
