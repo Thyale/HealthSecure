@@ -1,0 +1,33 @@
+.geral{
+    background-image: linear-gradient(to left, #50a2e9cb, #50a2e960, #50a2e9cb);
+    text-align: center;
+    padding: 30px 10px;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.474);
+    margin-top: 5px ;
+    margin-bottom: 15px;
+}
+
+.geral > div{
+    background-color: rgb(255, 255, 255);
+    width: 258px;
+    margin: auto;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#duvida{
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.enviar{
+    padding: 10px 15px;
+    border: none;
+    background-color: #50A2E9;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}

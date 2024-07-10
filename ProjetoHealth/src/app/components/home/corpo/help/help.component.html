@@ -1,0 +1,8 @@
+<div class="geral">
+    <h1>Posso ajudar em algo mais?</h1>
+    <p>Por favor, utilize o campo acima para enviar sua dúvida ou questão. Clique em "Mandar" para nos enviar sua mensagem.</p>
+    <div>
+        <input [(ngModel)] = "DuvidaDigitada" type="text" name="duvida" id="duvida">
+        <input (click)="EnviarDuvida()" class="enviar" type="button" value="Mandar">
+    </div>
+</div>
