@@ -1,0 +1,29 @@
+<div class="geral">
+
+    <div class="NomeEmpresa">
+        <h1>Health Secure</h1>
+        <span (click)="AparecerMobile()" class="material-symbols-outlined">menu</span>
+    </div>
+
+    <div class="Lista">
+        <ul>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Benefícios</a></li>
+        </ul>
+    </div>
+
+    <div *ngIf="Aparecer == true" class="ListaMobile">
+        <ul>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Benefícios</a></li>
+        </ul>
+    </div>
+
+    <div class="DivUser">
+        <img src="FotoPerfil.jpg" alt="Foto de perfil ilustrativa">
+        <p>{{nomeUsuario}}</p>
+    </div>
+    
+</div>
