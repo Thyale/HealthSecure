@@ -1,0 +1,50 @@
+#servicos{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+strong{
+    color: #50A2E9;
+}
+
+.DivGeralDosServicos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.DivGeralDosServicos div{
+    width: 35%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.DivGeralDosServicos div:hover{
+    background-color: #50a2e96c;
+}
+
+.DivGeralDosServicos div h2{
+    font-size: 20px;
+}
+
+.DivGeralDosServicos div p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.586);
+}
+
+img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}

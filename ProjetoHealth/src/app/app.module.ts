@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/home/header/header.component';
 import { FooterComponent } from './components/home/footer/footer.component';
 import { HelpComponent } from './components/home/corpo/help/help.component';
 import { BeneficiosComponent } from './components/home/corpo/beneficios/beneficios.component';
+import { ServicosComponent } from './components/home/corpo/servicos/servicos.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BeneficiosComponent } from './components/home/corpo/beneficios/benefici
     HeaderComponent,
     FooterComponent,
     HelpComponent,
-    BeneficiosComponent
+    BeneficiosComponent,
+    ServicosComponent
   ],
   imports: [
     BrowserModule,
