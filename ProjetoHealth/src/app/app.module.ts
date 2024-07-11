@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/home/header/header.component';
 import { FooterComponent } from './components/home/footer/footer.component';
 import { HelpComponent } from './components/home/corpo/help/help.component';
+import { BeneficiosComponent } from './components/home/corpo/beneficios/beneficios.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HelpComponent } from './components/home/corpo/help/help.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    HelpComponent
+    HelpComponent,
+    BeneficiosComponent
   ],
   imports: [
     BrowserModule,
