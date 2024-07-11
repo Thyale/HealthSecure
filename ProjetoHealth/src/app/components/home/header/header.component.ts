@@ -25,4 +25,5 @@ export class HeaderComponent {
       this.Aparecer = false
     }
   }
+
 }

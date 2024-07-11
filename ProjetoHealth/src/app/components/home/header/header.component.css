@@ -25,12 +25,11 @@
     list-style: none;
 }
 
-.Lista a{
-    text-decoration: none;
+.Lista p{
     color: #4383bb;
 }
 
-.Lista a:hover{
+.Lista p:hover{
     color: #55a0e2;
 }
 
@@ -91,12 +90,11 @@ span{
         padding: 10px;
     }
     
-    .ListaMobile a{
+    .ListaMobile p{
         color: #ffffff;
-        text-decoration: none;
     }
     
-    .ListaMobile a:hover{
+    .ListaMobile p:hover{
         color: #81c4ff;
     }
     
