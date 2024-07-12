@@ -13,6 +13,7 @@ import { HelpComponent } from './components/home/corpo/help/help.component';
 import { BeneficiosComponent } from './components/home/corpo/beneficios/beneficios.component';
 import { ServicosComponent } from './components/home/corpo/servicos/servicos.component';
 import { SobreComponent } from './components/home/corpo/sobre/sobre.component';
+import { InicioComponent } from './components/home/corpo/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SobreComponent } from './components/home/corpo/sobre/sobre.component';
     HelpComponent,
     BeneficiosComponent,
     ServicosComponent,
-    SobreComponent
+    SobreComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,

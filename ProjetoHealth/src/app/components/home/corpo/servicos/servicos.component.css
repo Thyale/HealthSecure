@@ -9,30 +9,25 @@
     gap: 30px;
 }
 
-strong{
-    color: #50A2E9;
+h1{
+    color: #4383bb;
 }
 
 .DivGeralDosServicos{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .DivGeralDosServicos div{
-    width: 35%;
-    min-width: 250px;
+    width: 220px;
     display: flex;
     flex-direction: column;
     padding: 10px;
     border-radius: 10px;
     gap: 5px;
-}
-
-.DivGeralDosServicos div:hover{
-    background-color: #50a2e96c;
 }
 
 .DivGeralDosServicos div h2{

@@ -1,12 +1,13 @@
 .geral{
-    background-image: linear-gradient(to left, #50a2e9cb, #50a2e960, #50a2e9cb);
+    background-color: #4383bb;
     text-align: center;
     padding: 30px 10px;
     margin-bottom: 2em;
+    color: white;
 }
 
 p{
-    color: rgba(0, 0, 0, 0.474);
+    color: rgba(228, 228, 228, 0.474);
     margin-top: 5px ;
     margin-bottom: 15px;
 }
@@ -31,4 +32,8 @@ p{
     color: white;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: #3e7ab0;
 }

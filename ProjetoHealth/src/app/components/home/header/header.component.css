@@ -1,5 +1,4 @@
 .geral{
-    background-color:#50a2e960 ;
     color: white;
     display: flex;
     flex-direction: row;
@@ -76,7 +75,7 @@ span{
     .ListaMobile{
         display: flex;
         flex-direction: column;
-        background-color: #55a0e2;
+        background-color: #4383bb;
         width: 100%;
         border-radius: 10px;
     }

@@ -15,12 +15,12 @@
     gap: 5px;
 }
 
-strong{
-  color: #50A2E9;
+h1{
+  color: #4383bb;
 }
 
 h2{
-    color: rgba(0, 0, 0, 0.659);
+    color: rgb(0, 0, 0);
 }
 
 .Texto p{
@@ -43,7 +43,6 @@ h2{
 
 i{
     color: #4383bb;
-    background-color: #50a2e960;
     border-radius: 50%;
     padding: 10px;
 }

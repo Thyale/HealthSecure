@@ -1,8 +1,5 @@
 .Background{
-    background-image: url(../../../../public/BackgroundLogin.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #2f5c84;
     height: 100vh;
     width: 100vw;
 }

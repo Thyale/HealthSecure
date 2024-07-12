@@ -1,0 +1,44 @@
+.geral{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    gap: 20px;
+}
+
+img{
+    width: 100%;
+    max-width: 400px;
+}
+
+.textodiv{
+    width: 60%;
+}
+
+h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.581);
+}
+
+p{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+@media(max-width: 800px){
+    .geral{
+        flex-direction: column;
+    }
+    
+    
+    .textodiv{
+        width: 100%;
+    }
+
+    
+}
